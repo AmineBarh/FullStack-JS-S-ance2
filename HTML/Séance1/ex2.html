@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet 2</title>
+</head>
+<style>
+    body {
+        margin: 40px;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    li {
+        margin: 0 2px;
+        padding: 5px;
+        border-radius: 6px;
+        background-color: #D43A45;
+        color: #F2EBDB;
+    }
+
+    li:hover {
+        background-color: #A40B14;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 100px;
+    }
+
+    p {
+        margin-top: -15px;
+        font-size: larger;
+    }
+
+    span {
+        color: brown;
+    }
+
+    th,
+    td {
+        /* padding-left: 10px;
+        padding-right: 10px; */
+        padding: 0 10px;
+    }
+
+    h2 {
+        font-size: 50px;
+        text-align: center;
+        color: #A40B14;
+    }
+
+    /* .sec2 img{
+        flex: 0 0 45%;
+    }
+    .sec1{
+        flex: 0 0 50%;
+    } */
+</style>
+
+<body>
+    <div class="nav">
+        <a href="#"><img src="D:\TTC Fullstack JS\img\Plugin icon - 1.png" alt="logo" width="100px" height="100px"></a>
+
+        <ul>
+
+            <a href="#work">
+                <li>WORK</li>
+            </a>
+            <a href="#">
+                <li>HOME</li>
+            </a>
+            <a href="#">
+                <li>CONTACT</li>
+            </a>
+            <a href="#rdv">
+                <li>TAKE RDV</li>
+            </a>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="sec1">
+            <h1>Experience <span>top-notch</span> care in our center</h1>
+            <p>Step into excellence at our state-of-the-art medical center, where your health journey begins with a warm
+                welcome and a commitment to exceptional care. </p>
+        </div>
+        <div class="sec2">
+            <img src="D:\TTC Fullstack JS\img\brochure covers_2-user manual.jpg" alt="" width="300px" height="400px">
+        </div>
+    </div>
+    <h2 id="work">Explore Our Facilities</h2>
+    <table border="">
+        <tr>
+            <th>Name Bloc</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Laboratory</td>
+            <td>Explore our state-of-the-art laboratory where cutting-edge technology meets precision. Our skilled lab
+                technicians work diligently to ensure accurate and timely test results, contributing to your
+                comprehensive healtdcare experience</td>
+        </tr>
+        <tr>
+            <td>Cardiology</td>
+            <td>Meet our Cardiologist, Dr. Y, a dedicated expert in heart healtd. Witd a focus on preventive care and
+                advanced diagnostics, Dr. Y and our cardiology team are committed to ensuring the well-being of your
+                heart</td>
+        </tr>
+    </table>
+    <h2>Take RDV</h2>
+    <form action="">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" placeholder="Name"></td>
+            </tr>
+            <td>Surname</td>
+            <td><input type="text"placeholder="Surname"></td>
+            </tr>
+            <td>Phone Number</td>
+            <td><input type="number" placeholder="Phone"></td>
+            </tr>
+            <tr>
+                <td>Which doctor</td>
+                <td>
+                    <select name="" id="">
+                        <option value="" selected disabled>Choose a doctor </option>
+                        <option value="">Laborato</option>
+                        <option value="">Cardiologist</option>
+                    </select>
+                </td>
+            </tr>
+            </tr>
+            <td>Date</td>
+            <td><input type="time"></td>
+            </tr>
+            <tr><td><button type="submit">Take RDV</button></td></tr>
+        </table>
+        
+    </form>
+</body>
+
+</html>
