@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "Instagram";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Fontspring"),
+      url("Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf") format("woff");
+  }
+  
+  *{
+    margin:  0 ;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    height: 100vh;
+    width: 100%;
+    background-color:#fafafa;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  img{
+    max-width: 100%;
+  }
+  
+  .big-bigger-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: auto;
+  }
+  .bigger-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .image{
+    flex : 0 0 45%
+  }
+  .login-page{
+    flex : 0 0 55%
+   
+  }
+  .just-login, .pas-de-compte, .jme3a-o5rin{ 
+    display: flex;
+    width: 100%;
+    padding: 10px ;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgb(200, 200, 200);
+    background-color: white;
+    border-radius: 8px;
+    
+  }
+  form{
+    width: 80%;
+  }
+  h1{
+    font-family: "Instagram";
+  }
+  .just-login input{
+    padding: 5px 10px;
+    font-size:12px;
+    background-color: #fafafa;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 2px;
+    width: 100%;
+    margin: 5px 0px;
+    outline: none;
+  }
+  .just-login button{
+    color: white;
+    background-color: #1d85f1;
+    border: transparent ;
+    width: 100%;
+    border-radius: 2px;
+    padding: 5px 10px;
+  }
+  .lines{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px ;
+  }
+  /* .lines span{
+    background-color: #dbdbdb;
+    display: block;
+    width: 100%;
+    height: 1px;
+    
+  } */
+  .lines p {
+    margin: 0 5%;
+    font-weight: 600;
+    font-size: 12px;
+    color: #8e8e8e;
+  }
+  .facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .mdp-petit{
+    font-size: 12px;
+    color: #00376b;
+  }
+  .mt{
+    margin-top: 18px;
+  }
+  
+  .foot{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer, .footer2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  .apps{
+    margin-top: 8px;
+  }
